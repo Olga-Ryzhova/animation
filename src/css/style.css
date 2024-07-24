@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	margin: 30px;
+}
+.collapse-box {
+  width: 33%;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #0069d9;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #2f4791;
+}
+
+.pressed {
+  outline: 3px solid #96adef;
+}
+
+.collapse-text {
+  border: 1px solid #b6b7b8;
+  padding: 10px; 
+  border-radius: 5px;
+  margin: 20px 0;
+  overflow: hidden;
+  transition: height 0.7s, opacity 0.5s;
+}
+
+.copy {
+  color: #555658;
+  text-align: right;
+	width: 33%;
+}
+
